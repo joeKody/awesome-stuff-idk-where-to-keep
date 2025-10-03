@@ -31,15 +31,24 @@ list of AWESOME stuff that I would've cried were I to neglect.
   - [Shinonome](http://openlab.jp/efont/shinonome/) (OG Japanese bitmap font. Also check out [/efont/](http://openlab.jp/efont/))
       - [Mona](https://monafont.sourceforge.net/index-e.html) (Derived from Shinonome)
 
-### How to achieve Bitmap look on the web
-Without bitmap embedded fonts. It is practically futile to achieve the look on Windows with your own custom font even after following [this guide](https://github.com/DavidBuchanan314/bitmap-font-css).  
-If you don't care about custom fonts, use the following fonts:
-  - MS Gothic (monospaced)
-  - MS PGothic, MS UI Gothic (proportional)
-
-Be cautious that the fonts will retain the pixel-perfect raster look only when viewed at certain sizes that the bitmap was embedded.  
-If the font size made at 8pt, it scales best at multiples of 8pt.  
-I tried changing the sizes through the CSS and found that MS Gothic fonts are viewed best 22px and under. No bigger and it'll be vectorized(?)
+<details>
+  <summary>
+    <h3>
+     How to achieve Bitmap look on the web
+    </h3>
+  </summary>
+  <p>
+  Without bitmap embedded fonts. It is practically futile to achieve the look on Windows with your own custom font even after following <a href="https://github.com/DavidBuchanan314/bitmap-font-css">this guide.</a><br />
+  If you don't care about custom fonts, use the following fonts:
+  <ul>
+    <li>MS Gothic (monospaced)</li>
+    <li>MS PGothic, MS UI Gothic (proportional)</li>
+  </ul>
+  Be cautious that the fonts will retain the pixel-perfect raster look <strong>only when viewed at certain sizes</strong> that the bitmap was embedded. <br />
+  If the font size made at 8pt, it scales best at multiples of 8pt. <br />
+  I tried changing the sizes through the CSS and found that MS Gothic fonts are viewed best 22px and under. No bigger and it'll be vectorized(?)
+  </p>
+</details>
 
 ## Utilities
   - [The NULL pointer](https://0x0.st) (Temporary file hosting)
